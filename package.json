@@ -1,0 +1,30 @@
+{
+  "name": "gulp-starter-kit",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp dev",
+    "dist": "gulp dist"
+  },
+  "author": "Mohamed Bouazzi",
+  "license": "MIT",
+  "description": "This Gulp starter kit is designed for building HTML, CSS (SCSS), and JavaScript projects efficiently. It provides a clean and structured setup for compiling, minifying, and optimizing assets using modern build tools. Perfect for frontend development with task automation.",
+  "devDependencies": {
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "browser-sync": "^3.0.3",
+    "browserify": "^17.0.1",
+    "del": "^8.0.0",
+    "gulp": "^5.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-nunjucks": "^6.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "sass": "^1.80.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}

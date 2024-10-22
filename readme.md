@@ -11,29 +11,6 @@ This Gulp starter kit is designed for building HTML, CSS (SCSS), and JavaScript 
 - **Live Reloading**: Automatically refresh the browser upon file changes.
 - **Clean Task**: Deletes old build files before generating new ones.
 
-## File Structure
-gulp-starter-kit/ 
-├── gulp/ 
-│├── tasks/ 
-││├── clean.js 
-││├── styles.js 
-││├── scripts.js 
-││├── images.js 
-││├── html.js 
-│└── paths.js 
-├── src/ 
-│├── assets/
-││├── styles/ 
-││├── images/ 
-││├── scripts/ 
-│├── views/
-││├── index.njk 
-├── dist/ 
-├── gulpfile.js 
-├── package.json 
-└── .gitignore
-
-
 ## Installation
 
 ``` bash
@@ -41,7 +18,7 @@ gulp-starter-kit/
 git clone https://github.com/MedBzz/gulp-starter-kit.git
    
 # 2. Navigate to the project directory
-cd my-gulp-starter-kit
+cd gulp-starter-kit
 
 # 3. Install dependencies
 npm install
